@@ -1,0 +1,362 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"model",
+				"models"
+			],
+			[
+				"cons",
+				"consign"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"poll",
+				"polloptions"
+			],
+			[
+				"bo",
+				"bower_components/"
+			],
+			[
+				"Poll",
+				"PollOptions"
+			],
+			[
+				"Req",
+				"Request"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 228.0,
+		"last_filter": "ss js",
+		"selected_items":
+		[
+			[
+				"ss js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ss p",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rbezerra/Documentos/Codes/ntask-api/libs",
+		"/home/rbezerra/Documentos/Codes/ntask-api/models",
+		"/home/rbezerra/Documentos/Codes/ntask-api/routes"
+	],
+	"file_history":
+	[
+		"/home/rbezerra/Documentos/Codes/ntask-api/auth.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/libs/config.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/package.json",
+		"/home/rbezerra/Documentos/Codes/ntask-api/index.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/routes/users.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/db.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/models/users.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/routes/token.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/models/tasks.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/routes/tasks.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/libs/middlewares.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/node_modules/sequelize/node_modules/lodash/_assignInDefaults.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/.gitignore",
+		"/home/rbezerra/Documentos/Codes/ntask-api/libs/boot.js",
+		"/home/rbezerra/Documentos/Codes/ntask-api/routes/index.js",
+		"/home/rbezerra/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/app/Poll.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/app/Http/Controllers/PollOptionsController.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/app/PollOptions.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/public/app/js/view/admin.html",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/app/Http/routes.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/public/app/js/controller/AdminController.js",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/.env",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/public/app/js/view/list.html",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/public/app/js/app.js",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/public/app/js/controller/PollController.js",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/database/seeds/DatabaseSeeder.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/config/app.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/app/Http/Controllers/PollsController.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/.gitignore",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/database/seeds/PollDataSeeder.php",
+		"/home/rbezerra/Documentos/Codes/whatsapp-bot/composer.json",
+		"/home/rbezerra/Documentos/Codes/whatsapp-bot/index.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/database/migrations/2016_03_24_031817_CreateTablePollsOptions.php",
+		"/home/rbezerra/Documentos/Codes/laravel-angular/database/migrations/2016_03_24_031526_CreateTablePolls.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"};",
+			"});\n",
+			"};",
+			");\n",
+			"port",
+			"index",
+			"ool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool",
+			"pool",
+			"Pool"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/rbezerra/Documentos/Codes/ntask-api"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ind",
+				"index.js"
+			],
+			[
+				"user",
+				"models/users.js"
+			],
+			[
+				"m",
+				"libs/middlewares.js"
+			],
+			[
+				"inde",
+				"index.js"
+			],
+			[
+				"midd",
+				"libs/middlewares.js"
+			],
+			[
+				"conf",
+				"libs/config.js"
+			],
+			[
+				".g",
+				".gitignore"
+			],
+			[
+				"db",
+				"db.js"
+			],
+			[
+				"tasks",
+				"models/tasks.js"
+			],
+			[
+				"config/lib/mo",
+				"config/lib/mongoose.js"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				".en",
+				".env"
+			],
+			[
+				"poll",
+				"app/Http/Controllers/PollOptionsController.php"
+			],
+			[
+				"admin",
+				"public/app/js/controller/AdminController.js"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"pol",
+				"app/PollOptions.php"
+			],
+			[
+				"seede",
+				"vendor/laravel/framework/src/Illuminate/Database/Seeder.php"
+			],
+			[
+				"data",
+				"database/seeds/DatabaseSeeder.php"
+			],
+			[
+				"polls",
+				"app/Http/Controllers/PollsController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

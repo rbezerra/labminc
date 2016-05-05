@@ -1,10 +1,14 @@
-const passport = require("passport");
-const Strategy = require("passport-jwt");
+import passport from "passport";
+import {Strategy} from "passport-jwt";
+import {ExtractJwt} from "passport-jwt";
 
 module.exports = app => {
 	const Users = app.db.models.Users;
 	const cfg = app.libs.config;
-	const strategy = new Strategy({secretOrKey: cfg.jwtSecret},
+	const strategy = new Strategy({
+			secretOrKey: cfg.jwtSecret,
+			jwtFromRequest: ExtractJwt.fromAuthHeader()
+		},
 		(payload, done) => {
 			Users.findById(payload.id)
 				.then(user => {
