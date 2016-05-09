@@ -4,10 +4,14 @@
   "description": "API de Gestão de Tarefas",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
-    "test": "NODE_ENV=test mocha --timeout 5000 test/**/*.js"
+    "start": "npm run apidoc && babel-node index.js",
+    "test": "NODE_ENV=test mocha --timeout 5000 test/**/*.js",
+    "apidoc": "apidoc -i routes/ -o public/apidoc"
   },
   "author": "Ramon Bezerra",
+  "apidoc": {
+    "name": "Documentação - Node Task API"
+  },
   "dependencies": {
     "babel": "^5.8.23",
     "babel-cli": "^6.7.5",
@@ -22,6 +26,7 @@
     "sqlite3": "^3.1.3"
   },
   "devDependencies": {
+    "apidoc": "^0.16.1",
     "babel-runtime": "^5.8.25",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
