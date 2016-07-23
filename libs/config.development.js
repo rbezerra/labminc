@@ -1,14 +1,14 @@
 module.exports = {
-	database: "ntask",
+	database: "labminc",
 	username: "",
 	password: "",
 	params: {
 		dialect: "sqlite",
-		storage: "ntask.sqlite",
+		storage: "labminc.sqlite",
 		define: {
 			underscored: true
 		}
 	},
-	jwtSecret: "Nta$K-AP1",
+	jwtSecret: "L4BM1NC-AP1",
 	jwtSession: {session: false}
 };
